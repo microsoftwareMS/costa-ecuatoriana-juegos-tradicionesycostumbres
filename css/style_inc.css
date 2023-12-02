@@ -24,7 +24,7 @@ body {
     padding: 15px;
 }
 
-h1 {
+.content_div h1 {
     display: inline-block;
     border-bottom: 2px solid #53BDEB;
     width: 1150px;
@@ -33,7 +33,7 @@ h1 {
     letter-spacing: 2px;
 }
 
-p {
+.content_div p {
     text-align: justify;
     color: #A5A9AC;
 }
@@ -95,6 +95,7 @@ p {
     margin-left: 100px;
     letter-spacing: 2px;
 }
+
 
 .container img {
     width: 300px;
@@ -197,3 +198,23 @@ p {
     max-width: 320px;
     margin: auto;
 } 
+
+.content_data {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    width: 1200px;
+    background-color: #1E1E1E;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 0px 20px 0px 20px;
+}
+
+.content_data div {
+    align-items: center;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.content_data div p {
+    color: #8a8a8a;
+}
